@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "name": "Site 2024-01-03 10:44",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "ideam5",
+      "title": "IdeaM5",
+      "styling": {
+        "primaryColor": "#0099ff",
+        "secondaryColor": "#264FF5",
+        "successColor": "#6138FF",
+        "infoColor": "#8160FF",
+        "warningColor": "#4BFDB1",
+        "dangerColor": "#FFCA39",
+        "mainFont": "Be Vietnam Pro",
+        "display1Font": "Be Vietnam Pro",
+        "display1Size": 5,
+        "display2Font": "Be Vietnam Pro",
+        "display2Size": 2.5,
+        "display5Font": "Be Vietnam Pro",
+        "display5Size": 1.75,
+        "display7Font": "Be Vietnam Pro",
+        "display7Size": 1,
+        "display4Font": "Be Vietnam Pro",
+        "display4Size": 1.25,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.9.8",
+    "siteFonts": [
+      {
+        "css": "'Be Vietnam Pro', sans-serif",
+        "name": "Be Vietnam Pro",
+        "url": "https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      }
+    ],
+    "imageResize": true,
+    "uniqCompNum": 0,
+    "versionPublish": "5.9.8",
+    "screenshot": "screenshot.png",
+    "publishChangesOnly": true
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": []
+    }
+  }
+}
