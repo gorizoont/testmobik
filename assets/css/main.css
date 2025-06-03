@@ -6,14 +6,24 @@
 
 body {
   margin: 0;
-  font-family: var(--font-family);
+  font-family: var(--font-body);
   background-color: var(--light-color);
   color: var(--primary-color);
   line-height: 1.6;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+}
+
 header {
-  background: var(--dark-color);
+  background: linear-gradient(135deg, var(--dark-color), var(--accent-color));
   color: var(--light-color);
   padding: 1rem 0;
   position: sticky;
@@ -73,11 +83,12 @@ nav a:hover {
 
 .btn {
   display: inline-block;
-  background: var(--accent-color);
+  background: linear-gradient(135deg, var(--dark-color), var(--accent-color));
   color: var(--light-color);
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
+  transition: opacity 0.3s ease;
 }
 
 .btn:hover {
@@ -87,6 +98,21 @@ nav a:hover {
 .pricing {
   padding: 4rem 0;
   background: #f4f4f4;
+}
+
+.features,
+.courses,
+.testimonials,
+.about,
+.faq,
+.newsletter {
+  padding: 4rem 0;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
 .pricing h2 {
@@ -170,3 +196,12 @@ footer {
     font-size: 3rem;
   }
 }
+
+.faq details { margin-bottom: 1rem; }
+.faq summary { font-weight: bold; cursor: pointer; }
+
+
+.comparison { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+.comparison th, .comparison td { border: 1px solid #ccc; padding: 0.5rem; text-align: center; }
+.comparison th { background: var(--light-bg); }
+
