@@ -1,2 +1,0 @@
-# testmobik
-GitHub Pages

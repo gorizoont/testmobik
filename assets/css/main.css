@@ -1,0 +1,172 @@
+@import url('root.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--dark-color);
+  color: var(--light-color);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: var(--light-color);
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.hero {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--light-color);
+  overflow: hidden;
+}
+
+
+.hero-content {
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent-color);
+  color: var(--light-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.pricing {
+  padding: 4rem 0;
+  background: #f4f4f4;
+}
+
+.pricing h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--light-color);
+  border: 1px solid #eee;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card li {
+  padding: 0.5rem 0;
+
+.form-section {
+  padding: 2rem 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-field {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+
+footer {
+  background: var(--dark-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--dark-color);
+  color: var(--light-color);
+  padding: 1rem;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+
+.cookie-banner button {
+  background: var(--accent-color);
+  border: none;
+  color: var(--light-color);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+}
